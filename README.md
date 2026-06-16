@@ -1,6 +1,7 @@
 # Point-and-Click Dual-Renderer Engine
 
-![Point-and-Click Dual-Renderer Engine](assets/readme-hero.png)
+<img width="1800" height="1000" alt="image" src="https://github.com/user-attachments/assets/f485e5b9-3493-4207-b60f-c23d9217a360" />
+
 
 > A professional, content-neutral foundation for building point-and-click adventures with Babylon and Three behind one renderer-neutral contract, shipping to browser and desktop, and remaining fully playable offline.
 
@@ -25,7 +26,8 @@ The default product path is deliberately conservative:
 
 ## Runtime architecture
 
-![Runtime Architecture Map](assets/runtime-architecture-map.png)
+<img width="1800" height="1180" alt="image" src="https://github.com/user-attachments/assets/69c317b3-8b88-40af-93a2-48bbc4d836a0" />
+
 
 The core never imports Babylon, Three, or Tauri directly. Renderer construction and disposal belong exclusively to the orchestrator. Renderer parity means equivalent game behavior and state - not pixel-identical output.
 
@@ -109,7 +111,8 @@ No phase begins until the previous exit gate is green.
 
 ## Full README overview
 
-![README Overview](assets/full-readme-overview.png)
+<img width="1800" height="1100" alt="image" src="https://github.com/user-attachments/assets/93c85989-6364-4884-ba28-242092404253" />
+
 
 ---
 
